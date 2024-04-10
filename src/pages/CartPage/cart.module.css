@@ -1,0 +1,45 @@
+.cart_item {
+    display: flex;
+}
+
+.delete {
+    height: 30px;
+    width: 75px;
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #ff0004;
+    color: #fdffbb;
+
+    cursor: pointer;
+}
+
+.delete:hover {
+    background: #ff7273;
+}
+
+.btn {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #98a0ff;
+    color: #fdffbb;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2b36af;
+}
